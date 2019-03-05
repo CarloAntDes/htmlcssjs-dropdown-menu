@@ -60,7 +60,9 @@ a {
 }
 
 
-
+.hidden {
+  display: none;
+}
 
 .sub-menu {
   display: flex;
@@ -75,10 +77,14 @@ a {
   position: absolute;
   margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
-  left: -30px;
+  left: -20px;
 }
 
-.sub-menu > a {
-  margin-top: 20px;
-  padding: 10px 30px;
+.sub-voice {
+  height: 100%;
+  margin: 10px 0;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
 }
