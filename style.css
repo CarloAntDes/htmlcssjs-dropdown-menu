@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 1060px;
+  margin: auto;
+  height: 80px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-left {
+  width: 30%;
+}
+
+.nav-right {
+  width: 50%;
+
+}
+
+.nav-left , .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: grey;
+
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-left a > img {
+  height: 38px;
+  margin-bottom: 5px;
+}
+
+.button a {
+  background: #D2007E;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.nav-right .menu > span:hover, .nav-left > a:hover, .button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  position: relative;
+}
+
+.sub-menu {
+  position: absolute;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  left: -30px;
+}
+
+.sub-menu > a {
+  margin-top: 20px;
+  padding: 10px 30px;
+}
